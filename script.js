@@ -15,7 +15,7 @@ if (tes == true){
 }else{
     alert('User Menekan CANCEL!');
 }
-*/
+
 
 alert('Selamat Datang');
 var lagi = true;
@@ -25,4 +25,11 @@ while (lagi == true){
     alert('Halo' + nama);
 
     lagi = confirm('Coba Lagi?');
+}
+*/
+
+var nilaiawal=1;
+while(nilaiawal<=15){
+    console.log('Halo Dunia!');
+    nilaiawal++;
 }

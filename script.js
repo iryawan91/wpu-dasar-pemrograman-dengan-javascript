@@ -32,7 +32,7 @@ while(nilaiawal<=15){
     console.log('Angkot No.' + nilaiawal + ' beroperasi dengan baik!');
     nilaiawal++;
     }
-*/
+
 
 
 var jmlAngkot = 10;
@@ -47,3 +47,5 @@ while(noAngkot <= angkotBeroperasi){
 for (noAngkot=7; noAngkot<=jmlAngkot; noAngkot++){
     console.log('Angkot No. ' +noAngkot+ ' sedang tidak beroperasi ')
 }
+
+*/

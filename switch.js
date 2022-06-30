@@ -32,6 +32,7 @@ switch(angka){
 }
 */
 
+/*
 var item=prompt('Masukan Nama Makanan/Minuman : \n (contoh: nasi, daging, susu, hamburger, softdrin)');
 
 switch(item){
@@ -54,5 +55,27 @@ switch(item){
         alert('Pilihan Salah');
         break;
 }
+*/
+
+var k= '';
+for (var a=0; a<10; a++){
+    for (var b=0; b<=a; b++){
+        k += '*';
+    }
+    k += '\n';
+}
+
+console.log(k);
+
+var s= '';
+for (var i=9; i>0; i--){
+    for (var j=0; j<i; j++){
+        s += '*';
+    }
+    s += '\n';
+}
+
+console.log(s);
+
 
 
